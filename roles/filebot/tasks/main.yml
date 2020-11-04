@@ -42,7 +42,7 @@
       LETSENCRYPT_HOST: "filebot.{{ user.domain }}"
       LETSENCRYPT_EMAIL: "{{ user.email }}"
       AMC_ACTION: "move"
-      AMC_CUSTOM_OPTIONS: "--lang fr --def exec="/config/updatePlex.sh""
+      AMC_CUSTOM_OPTIONS: '--lang fr --def exec="/config/updatePlex.sh"'
     volumes:
       - "/opt/filebot:/config"
       - "/mnt:/mnt"
