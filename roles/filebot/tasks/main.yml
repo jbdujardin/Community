@@ -41,12 +41,14 @@
       VIRTUAL_PORT: "5800"
       LETSENCRYPT_HOST: "filebot.{{ user.domain }}"
       LETSENCRYPT_EMAIL: "{{ user.email }}"
+      AMC_ACTION: "move"
+      AMC_CUSTOM_OPTIONS: "--lang fr --def exec="/config/updatePlex.sh""
     volumes:
       - "/opt/filebot:/config"
       - "/mnt:/mnt"
-      - "/mnt/unionfs/Media/TV:/storage/Media/TV Shows"
-      - "/mnt/unionfs/Media/Movies/Movies:/storage/Media/Movies"
-      - "/mnt/local/downloads:/storage/downloads"
+      - "/mnt/local:/storage"
+      - "/mnt/local/downloads/jdownloader2/output:/watch"
+      - "/mnt/local/Media/Filebot:/output"
     labels:
       "com.github.cloudbox.cloudbox_managed": "true"
     networks:
