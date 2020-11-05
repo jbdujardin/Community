@@ -59,6 +59,7 @@
       - "/opt/xteve/app/guide2go:/home/xteve/guide2go/conf:rw"
     labels:
       "com.github.cloudbox.cloudbox_managed": "true"
+      "com.centurylinklabs.watchtower": "true"
     networks:
       - name: cloudbox
         aliases:
