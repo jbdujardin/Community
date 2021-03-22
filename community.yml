@@ -29,9 +29,11 @@
     - { role: btrfsmaintenance, tags: ['btrfsmaintenance'] }
     - { role: calibre, tags: ['calibre'] }
     - { role: calibre-web, tags: ['calibre-web'] }
+    - { role: changedetection, tags: ['changedetection'] }
     - { role: coder, tags: ['coder'] }
     - { role: comixed, tags: ['comixed'] }
     - { role: comicstreamer, tags: ['comicstreamer'] }
+    - { role: conreq, tags: ['conreq'] }
     - { role: deemix, tags: ['deemix'] }
     - { role: deemixrr, tags: ['deemixrr'] }
     - { role: deezloader-remix, tags: ['deezloader-remix'] }
@@ -84,6 +86,7 @@
     - { role: ouroboros, tags: ['ouroboros'] }
     - { role: overseerr, tags: ['overseerr'] }
     - { role: jdownloader2, tags: ['jdownloader2'] }
+    - { role: petio, tags: ['petio'] }
     - { role: plex2, tags: ['plex2'] }
     - { role: pyload, tags: ['pyload'] }
     - { role: qbittorrent, tags: ['qbittorrent'] }
@@ -113,6 +116,7 @@
     - { role: unmanic, tags: ['unmanic'] }
     - { role: varken, tags: ['varken'] }
     - { role: vnstat, tags: ['vnstat'] }
+    - { role: vscode, tags: ['vscode'] }
     - { role: watchtower, tags: ['watchtower'] }
     - { role: wallabag, tags: ['wallabag'] }
     - { role: wordpress, tags: ['wordpress'] }
